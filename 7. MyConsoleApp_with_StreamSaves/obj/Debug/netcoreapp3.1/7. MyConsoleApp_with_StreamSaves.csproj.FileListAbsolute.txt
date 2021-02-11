@@ -1,0 +1,14 @@
+C:\Users\DESKTOP PC\Desktop\C# Advanced\4.1. Exercise - Streams, Files and Directories\7. MyConsoleApp_with_StreamSaves\bin\Debug\netcoreapp3.1\7. MyConsoleApp_with_StreamSaves.exe
+C:\Users\DESKTOP PC\Desktop\C# Advanced\4.1. Exercise - Streams, Files and Directories\7. MyConsoleApp_with_StreamSaves\bin\Debug\netcoreapp3.1\7. MyConsoleApp_with_StreamSaves.deps.json
+C:\Users\DESKTOP PC\Desktop\C# Advanced\4.1. Exercise - Streams, Files and Directories\7. MyConsoleApp_with_StreamSaves\bin\Debug\netcoreapp3.1\7. MyConsoleApp_with_StreamSaves.runtimeconfig.json
+C:\Users\DESKTOP PC\Desktop\C# Advanced\4.1. Exercise - Streams, Files and Directories\7. MyConsoleApp_with_StreamSaves\bin\Debug\netcoreapp3.1\7. MyConsoleApp_with_StreamSaves.runtimeconfig.dev.json
+C:\Users\DESKTOP PC\Desktop\C# Advanced\4.1. Exercise - Streams, Files and Directories\7. MyConsoleApp_with_StreamSaves\bin\Debug\netcoreapp3.1\7. MyConsoleApp_with_StreamSaves.dll
+C:\Users\DESKTOP PC\Desktop\C# Advanced\4.1. Exercise - Streams, Files and Directories\7. MyConsoleApp_with_StreamSaves\bin\Debug\netcoreapp3.1\7. MyConsoleApp_with_StreamSaves.pdb
+C:\Users\DESKTOP PC\Desktop\C# Advanced\4.1. Exercise - Streams, Files and Directories\7. MyConsoleApp_with_StreamSaves\obj\Debug\netcoreapp3.1\7. MyConsoleApp_with_StreamSaves.csprojAssemblyReference.cache
+C:\Users\DESKTOP PC\Desktop\C# Advanced\4.1. Exercise - Streams, Files and Directories\7. MyConsoleApp_with_StreamSaves\obj\Debug\netcoreapp3.1\7. MyConsoleApp_with_StreamSaves.AssemblyInfoInputs.cache
+C:\Users\DESKTOP PC\Desktop\C# Advanced\4.1. Exercise - Streams, Files and Directories\7. MyConsoleApp_with_StreamSaves\obj\Debug\netcoreapp3.1\7. MyConsoleApp_with_StreamSaves.AssemblyInfo.cs
+C:\Users\DESKTOP PC\Desktop\C# Advanced\4.1. Exercise - Streams, Files and Directories\7. MyConsoleApp_with_StreamSaves\obj\Debug\netcoreapp3.1\7. MyConsoleApp_with_StreamSaves.csproj.CoreCompileInputs.cache
+C:\Users\DESKTOP PC\Desktop\C# Advanced\4.1. Exercise - Streams, Files and Directories\7. MyConsoleApp_with_StreamSaves\obj\Debug\netcoreapp3.1\7. MyConsoleApp_with_StreamSaves.dll
+C:\Users\DESKTOP PC\Desktop\C# Advanced\4.1. Exercise - Streams, Files and Directories\7. MyConsoleApp_with_StreamSaves\obj\Debug\netcoreapp3.1\7. MyConsoleApp_with_StreamSaves.pdb
+C:\Users\DESKTOP PC\Desktop\C# Advanced\4.1. Exercise - Streams, Files and Directories\7. MyConsoleApp_with_StreamSaves\obj\Debug\netcoreapp3.1\7. MyConsoleApp_with_StreamSaves.genruntimeconfig.cache
+C:\Users\DESKTOP PC\Desktop\C# Advanced\4.1. Exercise - Streams, Files and Directories\7. MyConsoleApp_with_StreamSaves\bin\Debug\netcoreapp3.1\productSaves.txt

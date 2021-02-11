@@ -1,0 +1,5 @@
+apple 2.48
+lolipop 2.12
+egg 1.44
+pineapple 3.56
+emre 9999
