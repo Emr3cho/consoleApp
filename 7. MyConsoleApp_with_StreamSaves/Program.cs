@@ -221,6 +221,7 @@ namespace _7._MyConsoleApp_with_StreamSaves
             else if (yesOrNot == "N")
             {
                 thanks = true;
+                Console.WriteLine(string.Empty);
                 Console.WriteLine("Thank you for choosing us!");
             }
             else
@@ -230,6 +231,7 @@ namespace _7._MyConsoleApp_with_StreamSaves
 
             if (thanks == false)
             {
+                Console.WriteLine(string.Empty);
                 Console.WriteLine("Thank you for choosing us!");
             }
 
