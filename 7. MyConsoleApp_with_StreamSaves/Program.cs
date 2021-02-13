@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Collections.Generic;
 
@@ -9,8 +9,8 @@ namespace _7._MyConsoleApp_with_StreamSaves
         static void Main(string[] args)
         {
             usingTips();
-            string[] productSaves = File.ReadAllLines(@"../../../productSaves.txt");
-            var writer = File.AppendText(@"../../../productSaves.txt");
+            string[] productSaves = File.ReadAllLines(@"productSaves.txt");
+            var writer = File.AppendText(@"productSaves.txt");
             Dictionary<string, double> productNameAndPrice = new Dictionary<string, double>();
             Dictionary<string, double[]> productNamePriceandQuantity = new Dictionary<string, double[]>();
             double totalPrice = 0;
@@ -180,35 +180,43 @@ namespace _7._MyConsoleApp_with_StreamSaves
             Console.Write("Do you want to see your order list? Y/N - ");
             string yesOrNot = Console.ReadLine().ToUpper();
 
+            Console.WriteLine(string.Empty);
+
             bool thanks = false;
 
             if (yesOrNot == "Y")
             {
-                Queue<double> moneyQue = new Queue<double>();
+                Queue<decimal> moneyQue = new Queue<decimal>();
                 List<double> moneyShower = new List<double>();
 
                 foreach (var pair in productNamePriceandQuantity)
                 {
                     Console.WriteLine($"{pair.Value[0]}x {pair.Key}({productNameAndPrice[pair.Key]}$) = {pair.Value[1]:F02}$");
-                    moneyQue.Enqueue(pair.Value[1]);
+                    moneyQue.Enqueue((decimal)pair.Value[1]);
                 }
 
-                double moneyCollector = 0;
+                decimal moneyCollector = 0;
+
+                Console.WriteLine(string.Empty);
 
                 while (moneyQue.Count > 0)
                 {
-                    double current = moneyQue.Dequeue();
+                    decimal current = (decimal)moneyQue.Dequeue();
                     moneyCollector += current;
-                    if (moneyQue.Count > 0)
+                    if (moneyQue.Count > 1)
                     {
                         Console.WriteLine($"{moneyCollector:F02} + {(string.Join(" + ", moneyQue)):F02}");
                     }
-                    else
+                    else if (moneyQue.Count == 1)
                     {
-                        Console.WriteLine($"Your bill - {moneyCollector:F02}$");
+                        Console.WriteLine($"{moneyCollector:F02} + {(string.Join(" + ", moneyQue)):F02} = {moneyCollector + (decimal)moneyQue.Peek():F02}");
+
                     }
 
                 }
+
+                Console.WriteLine($"Your bill - {moneyCollector:F02}$");
+
             }
             else if (yesOrNot == "N")
             {
@@ -225,6 +233,7 @@ namespace _7._MyConsoleApp_with_StreamSaves
                 Console.WriteLine("Thank you for choosing us!");
             }
 
+            Console.ReadKey();
         }
 
         static void usingTips()
