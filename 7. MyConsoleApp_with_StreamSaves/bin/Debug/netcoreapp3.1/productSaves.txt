@@ -1,5 +1,1 @@
-apple 2.48
-lolipop 2.12
-egg 1.44
-emre 9999
-car 13.38
+
